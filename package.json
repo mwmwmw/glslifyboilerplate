@@ -1,0 +1,30 @@
+{
+  "name": "glslifyboilerplate",
+  "version": "1.0.0",
+  "description": "A basic setup to start using GLSLify immediately",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GLSL",
+    "WebGL",
+    "GLSLify",
+    "Stack.gl"
+  ],
+  "author": "Matthew Willox",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "glslify": "^6.1.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "glsl-noise": "0.0.0",
+    "twgl.js": "^4.2.0"
+  }
+}
